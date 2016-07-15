@@ -1,0 +1,9 @@
+ionic:
+  build: .
+  container_name: ionic
+  ports:
+    - "8100:8100"
+    - "35729:35729"
+  # extra_hosts:
+  #   - "localhost:10.0.2.2"
+  command: ping localhost
